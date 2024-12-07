@@ -15,61 +15,16 @@ jobs:
       - name: Set up SSH agent
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: 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
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Copy files to EC2 instance
         run: |
-          scp -o StrictHostKeyChecking=no -r ./* ec2-user@ip-172-31-5-187:/home/ec2-user/app
+          scp -o StrictHostKeyChecking=no -r ./* ec2-user@ip-172-31-5-187:~/app
+
       - name: Run deployment script on EC2 instance
         run: |
           ssh -o StrictHostKeyChecking=no ec2-user@ip-172-31-5-187 << 'EOF'
-          cd /home/ec2-user/app
+          cd ~/app
           npm install
           npm start
           EOF
